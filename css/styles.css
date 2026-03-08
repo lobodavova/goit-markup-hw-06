@@ -400,6 +400,10 @@ button {
        padding-bottom: 120px;
     }
 
+    .features-list {
+        flex-wrap: nowrap;
+    }
+
     .features-title {
         font-weight: 500;
         font-size: 20px;
