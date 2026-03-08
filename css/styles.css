@@ -390,7 +390,6 @@ button {
 
     .features-item {
         max-width: 356px;
-        flex-basis: calc((100% - 24px) / 2);
 }
 
 }
@@ -431,7 +430,7 @@ button {
 
 /*#region Team*/
 
-.team .container {
+.team-containerr {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -526,7 +525,7 @@ button {
 
 @media only screen and (min-width: 768px) {
     
-    .team .container{
+    .team-container{
         padding: 96px 108px;
     }
 
@@ -540,9 +539,13 @@ button {
 }
 
 @media only screen and (min-width: 1158px) {
-    .team .container{
-        padding-bottom: 120px;
+    .team-container{
+        padding: 0;
+    }
+
+    .team{
         padding-top: 120px;
+        padding-bottom: 120px;
     }
 
     .team-list {
@@ -976,6 +979,10 @@ footer .logo {
     display: flex;
     flex-direction: column;
     gap: 40px;
+   
+}
+
+.menu-nav{
     margin-bottom: auto;
 }
 
