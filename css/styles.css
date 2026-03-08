@@ -431,7 +431,8 @@ button {
     align-items: center;
     flex-direction: column;
     gap: 72px;
-    padding: 96px 28px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .team-list {
@@ -587,8 +588,7 @@ button {
 }
 
 .portfolio-img{
-    width: 288px;
-    height: 280px;
+    max-width: 288px;
 }
 
 .overlay {
@@ -655,8 +655,7 @@ button {
     flex-basis: calc((100% - 24px) / 2);
     }
     .portfolio-img {
-        width: 356px;
-        height: 300px;
+        max-width: 356px;
     }
 }
 
@@ -681,7 +680,7 @@ button {
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     }
     .portfolio-img {
-        width: 360px;      
+        max-width: 360px;      
 }
 }
 
@@ -694,7 +693,11 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 96px 16px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    max-width: 552px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-text {
@@ -843,9 +846,10 @@ footer .logo {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: start;
-        justify-content: flex-start;
-        gap: 0 24px; 
-        padding: 96px 108px;
+        justify-content: start;
+        gap: 72px 24px; 
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
     .footer-input{
@@ -865,6 +869,7 @@ footer .logo {
 
     .footer-text {
         width: 264px;
+        margin: 0;
     }
 
     .footer-social{
