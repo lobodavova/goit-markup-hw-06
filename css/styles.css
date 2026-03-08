@@ -171,7 +171,6 @@ button {
         display: flex;
         flex-direction: column;
         gap: 12px;
-        padding: 16px 0;
     }
     
     .contacts-link {
@@ -334,8 +333,8 @@ button {
 }
 
 .features {
-    margin-top: 96px;
-    margin-bottom: 96px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .features-list {
@@ -377,9 +376,6 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
-    .features{
-        margin-top: 90px;
-    }
     .features-list {
         flex-direction: row;
         flex-wrap: wrap;
@@ -1306,6 +1302,7 @@ footer .logo {
 @media only screen and (min-width: 768px) {
     .modal{
         width: 408px;
+        padding: 72px 24px 24px;
     }
 
     .custom-checkbox-text {
